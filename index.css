@@ -1,0 +1,90 @@
+.main-container {
+  /* background-color: blanchedalmond; */
+  height: 100vh;
+  width: 100%;
+}
+.aside-container {
+  height: 100vh;
+  width: 250px;
+  position: relative;
+}
+.sidebar-container {
+  width: 250px;
+  height: inherit;
+  background-color: #3b4483;
+  position: fixed;
+  overflow: auto;
+}
+header span {
+  color: white;
+}
+header img {
+  height: 100px;
+  width: 125px;
+}
+.main-container ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.main-container ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5em;
+  padding-left: 1em;
+  color: white;
+}
+.main-container ul li :hover {
+  background-color: #e1e1e1;
+  border-radius: 0px 200px 200px 0px;
+  color: black;
+}
+.icons {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-auto-columns: max-content;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.icons .item {
+  padding: 0.6rem;
+  text-align: center;
+}
+.icons .body {
+  font-size: 1em;
+}
+.icons .name {
+  font-size: 0.7em;
+  overflow: hidden;
+  background: #eee;
+  user-select: all;
+}
+.content {
+  margin-left: 250px;
+  padding: 1em;
+}
+.content span {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.active {
+  background-color: aquamarine;
+}
+
+body#ion__icons li.ion__icons a,
+body#material__design li.material__design a,
+body#feather__icons li.feather__icons a,
+body#linea__icons li.linea__icons a,
+body#font__awesome li.font__awesome a {
+  background-color: #e1e1e1;
+  border-radius: 0px 200px 200px 0px;
+  color: black;
+  pointer-events: none;
+}
+
+.example {
+  margin-top: 1rem;
+}
+.example pre {
+  background-color: #e1e1e1;
+  margin: 0px;
+}
