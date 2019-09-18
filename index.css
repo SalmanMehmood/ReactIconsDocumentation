@@ -8,7 +8,7 @@
   width: 250px;
   position: relative;
 }
-header {
+.header-container {
   display: flex;
   align-items: center;
 }
