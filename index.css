@@ -8,6 +8,10 @@
   width: 250px;
   position: relative;
 }
+header {
+  display: flex;
+  align-items: center;
+}
 .sidebar-container {
   width: 250px;
   height: inherit;
